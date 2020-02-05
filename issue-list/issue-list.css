@@ -90,9 +90,13 @@ q   width:auto;
 
 .one,.two,.three {
     background-color: #EBEDF4;
-    padding-left:2em;
     margin-bottom:1em;
     box-shadow: -1px 2px 20px rgb(218, 216, 216);
+}
+
+.rr {
+    padding-left:1em;
+    padding-bottom: 1em;
 }
 
 .issue {
@@ -119,6 +123,47 @@ q   width:auto;
 .dar {
     color: #575F6F;
 }
-h2 {
-    padding-bottom: 1em;
+
+.card {
+    background-color:#F8FAFB;
+    display:grid;
+    grid-template-rows: 2rem 4rem 4rem 2rem;
+}
+
+.line1 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.line2 {
+    padding-left: 1em;
+}   
+
+.line3 {
+    padding-left: 1em;
+    margin-top:-1.5em;
+    margin-right: 1em;
+    color: #ACBAC7;
+}
+
+.line4 {
+    display:grid;
+    margin-top:-2.5em;
+    grid-template-columns: 1f 1f;
+}   
+.idnum {
+    display:flex;
+    padding-left:1em;
+}
+
+.date {
+    display:flex;
+    justify-content: flex-end;
+    padding-right:1em;
+    color: #CBD3DC;
+}
+
+.assign {
+    display:flex;
+    padding-left:1em;
 }
