@@ -75,8 +75,50 @@ q   width:auto;
 
 .listarea{
     background-color:#F4F4F5;
+    display:grid;
+    grid-template-rows: 1fr 10fr;
+    padding-left: 2em;
+    padding-top:2em;
+}
+ 
+.list {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    margin-right:2em;
 }
 
-.Dashboard,.Issues,.Create {
-    padding-left: 1em;
+.one,.two,.three {
+    background-color: #EBEDF4;
+    padding-left:2em;
+    margin-bottom:1em;
+    box-shadow: -1px 2px 20px rgb(218, 216, 216);
+}
+
+.issue {
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr;
+}
+.drop {
+    width:1em;
+    height:1em;
+}
+
+.filter {
+    display:flex;
+    flex-direction: row;
+}
+.side {
+    width:3em;
+    height:3em; 
+}
+.fil {
+    color: #8295AA;
+    padding-right:1em;
+}
+.dar {
+    color: #575F6F;
+}
+h2 {
+    padding-bottom: 1em;
 }
