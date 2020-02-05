@@ -1,55 +1,79 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Link is used to connect the CSS to the HTM-->
         <link rel="stylesheet" href="issue-list.css">
+        <!--**Import of fonts failed**-->
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <!--Giving The title-->
         <title>tracker</title>
     </head>
     <body>
         <header>
+            <!--Header tag contains 3 grid elements-->
+            <!---First contains tracker logo-->
             <div class="first">
                 <img src="../assets/images/logo.svg" class="logo">
             </div>
+            <!--Second contains search icon and search text-->
             <div class="second">
                 <img src="../assets/images/icons-icon_search.svg" class="search">
                 <h4>  Search..</h4>
             </div>
+            <!--Third contains the bell icon and dp of the user-->
             <div class="third">
                 <img src="../assets/images/notification.svg" class="notification">
                 <img src="../assets/images/user_1.svg" class="dp">
             </div>
         </header>
     <div class="main">
+        <!--sidep is for the navigation bar on the left-->
         <nav class="sidep">
             
                 <h4> <img src="../assets/images/Dashboard_dark.svg" class="dash">   Dashboard</h4>
                 <h4> <img src="../assets/images/Issues_dark.svg" class="issues">    Issues</h4>
-                    <h4><img src="../assets/images/Create_dark.svg" class="create">     Create</h4>
+                <h4><img src="../assets/images/Create_dark.svg" class="create">     Create</h4>
             
         </nav>
+        <!--listare is for the are for the card list-->
         <div class="listarea">
                 <div class="issue">
                     <div class="is">
                     <h1><b></b>Issues<b></b></h1>
                     </div>
+                    <!--Text element of thre grid-->
                     <div class="filter">
                             <div class="fil"><h3>Filter</h3></div>
                             <div class="dar"><h3>Project <img src="../assets/images/down-arrow.png" class="drop"></h3></div>
                     </div>
+                    <!--Icons of the grid-->
                     <div class="ficon">
                         <img src="../assets/images/Grid.svg" class="side">
                         <img src="../assets/images/List deactivated.svg" class="side">
                     </div>
                 </div>
+                <!--the lower part of the grid is divided into 3 grid elements-->
+                <!--the "to do 5" , "in progress 2" , "done 4"-->
                 <div class="list">
                     <div class="one">
                         <h2>To Do 5</h2>
+
+<!--ID card-->
+                        <div class="card">
+                            <div class="idnum">
+
+                            </div> 
+                        </div> 
+
+
                     </div>
                     <div class="two">
                         <h2>In Progress 2</h2>
+
                     </div>
                     <div class="three">
                         <h2>Done 4</h2>
+
                     </div>
                 </div>
         </div>
