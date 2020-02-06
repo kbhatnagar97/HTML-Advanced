@@ -46,6 +46,7 @@ q   width:auto;
     color:#6F7DAC;
     font-family: "Open Sans";
     list-style-type:none;
+    height:160em;
 }
 
 }
@@ -76,7 +77,7 @@ q   width:auto;
 .listarea{
     background-color:#F4F4F5;
     display:grid;
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 1fr 22fr;
     padding-left: 2em;
     padding-top:2em;
 }
@@ -86,6 +87,7 @@ q   width:auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2em;
     margin-right:2em;
+    height:150em;
 }
 
 .one,.two,.three {
