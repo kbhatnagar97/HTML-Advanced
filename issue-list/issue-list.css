@@ -1,12 +1,27 @@
 header {
     display:grid;
+    background-color: white;
     grid-template-columns: 2fr 9fr 1fr;
     border-right: 1px solid black;
+    /* position: sticky;
+    top:0; */
 }
-body {
+body {`
     font-family:Arial, Helvetica, sans-serif;  
     margin:0;
     padding:0 ;
+}
+
+.dash {
+    position:scroll;
+}
+
+.issues{
+    position:scroll;
+}
+
+.create  {
+    position:scroll;
 }
 
 .logo {
@@ -46,7 +61,10 @@ q   width:auto;
     color:#6F7DAC;
     font-family: "Open Sans";
     list-style-type:none;
-    height:109em;
+    height:auto;    
+    /* position: sticky;
+    overflow-x:scroll;
+    top:0; */
 }
 
 }
@@ -80,7 +98,7 @@ q   width:auto;
     grid-template-rows: 1fr 20fr;
     padding-left: 2em;
     padding-top:2em;
-    height:107em
+    height:auto;
 }
  
 .list {
@@ -100,7 +118,6 @@ q   width:auto;
 
 .rr {
     padding-left:1em;
-    padding-bottom: 1em;
 }
 
 .issue {
@@ -133,6 +150,7 @@ q   width:auto;
     display:grid;
     grid-template-rows: 1f 1f 1f 1f 1f;
     margin-bottom:1em;
+    padding-top:0;
 }
 
 .line1 {
@@ -258,4 +276,29 @@ q   width:auto;
 }
 .button {
     text-decoration:none;
+}
+
+@media only screen and (max-width:600px) {
+
+    .list {
+        all:unset;
+        display:flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .first {
+        display: none;
+    }
+    .sidep{
+        all:unset;
+
+        display:none;   
+    }
+    .one,.two,.three {
+        margin-right: 2em;
+    }
+    .main {
+        all:unset;
+    }
+
 }
